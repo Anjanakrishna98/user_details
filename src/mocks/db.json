@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "a319",
+      "name": "Anjanakrishna",
+      "email": "anjana@gmail.com",
+      "address": {
+        "street": "iringal",
+        "city": "vadakara"
+      }
+    },
+    {
+      "id": "319a",
+      "name": "thanush cp",
+      "email": "thanush@gmail.com",
+      "address": {
+        "street": "kenkeri",
+        "city": "kenkeri"
+      }
+    },
+    {
+      "id": "eb8d",
+      "name": "athira",
+      "email": "athira@gmail.com",
+      "address": {
+        "street": "kakkanad",
+        "city": "kochi"
+      }
+    },
+    {
+      "id": "b7e3",
+      "name": "aparna",
+      "email": "aparna@gmail.com",
+      "address": {
+        "street": "iringal",
+        "city": "vadakara"
+      }
+    },
+    {
+      "id": "2eca",
+      "name": "Rishin CP",
+      "email": "rishincp@gmail.com",
+      "address": {
+        "street": "meppayoor",
+        "city": "kozhikode"
+      }
+    }
+  ]
+}
