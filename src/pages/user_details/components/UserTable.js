@@ -23,7 +23,6 @@ const UserList = () => {
     setOpenModal(true);
   };
 
-  // Function to generate a color based on name (for avatar backgrounds)
   const getAvatarBg = (name) => {
     const colors = ['bg-blue-500', 'bg-blue-600', 'bg-blue-700', 'bg-blue-800'];
     let sum = 0;
@@ -33,7 +32,6 @@ const UserList = () => {
     return colors[sum % colors.length];
   };
 
-  // Function to get initials from name
   const getInitials = (name) => {
     if (!name) return '?';
     return name

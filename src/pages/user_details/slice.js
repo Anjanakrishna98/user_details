@@ -9,7 +9,6 @@ const userSlice = createSlice({
     user: null,
   },
   reducers: {
-    // Fetch Users
     fetchUsersRequest: (state) => {
       state.loading = true;
     },
@@ -22,7 +21,6 @@ const userSlice = createSlice({
       state.error = action.payload;
     },
 
-    //  Create User
     createUserRequest: (state) => {
       state.loading = true;
     },
@@ -35,7 +33,6 @@ const userSlice = createSlice({
       state.error = action.payload;
     },
 
-    //  Update User
     updateUserRequest: (state) => {
       state.loading = true;
     },
@@ -52,7 +49,6 @@ const userSlice = createSlice({
       state.error = action.payload;
     },
 
-    //  Set Edit User
     setEditUser: (state, action) => {
       state.user = action.payload;
     },

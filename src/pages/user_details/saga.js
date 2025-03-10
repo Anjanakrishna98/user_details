@@ -39,7 +39,6 @@ const updateUserApi = async (userData) => {
     return await response.json();
 };
 
-//  Create User Function with Toast
 function* createUser(action) {
     try {
         const newUser = yield call(createUserApi, action.payload);
@@ -51,7 +50,6 @@ function* createUser(action) {
     }
 }
 
-//  Fetch Users Function
 function* fetchUsers() {
     try {
         const users = yield call(fetchUsersApi);
@@ -62,7 +60,6 @@ function* fetchUsers() {
     }
 }
 
-//  Update User Function with Toast
 function* updateUser(action) {
     try {
         const updatedUser = yield call(updateUserApi, action.payload);
